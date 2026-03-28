@@ -4,8 +4,7 @@
 
 ## 🚀 Демо
 
-Посмотреть сайт: [https://ваш-username.github.io/your-repo/](https://ваш-username.github.io/your-repo/)
-
+Посмотреть сайт: [https://mdn78.github.io/](https://mdn78.github.io/
 ## 📁 Структура проекта  
 
 your-repo/  
