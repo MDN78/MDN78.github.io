@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    color: #1e1e2a;
+    padding: 2rem 1.5rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Terminal styles */
+.terminal {
+    background: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px 20px 30px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    line-height: 1.4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Fira Code', 'SF Mono', 'Menlo', monospace;
+    font-size: 16px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    margin-bottom: 2rem;
+}
+
+.terminal-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    flex-grow: 1;
+}
+
+.mac-buttons {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+.mac-buttons div {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.red { background: #ff5f56; }
+.yellow { background: #ffbd2e; }
+.green { background: #27c93f; }
+
+.line {
+    display: block;
+    margin: 2px 0;
+    color: black;
+    font-family: monospace;
+    font-size: 14px;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.line.separator {
+    white-space: nowrap;
+    font-weight: bold;
+    user-select: none;
+    color: #2c3e50;
+    margin: 8px 0;
+    text-align: center;
+    font-family: monospace;
+}
+
+.passed {
+    color: #2e7d32;
+    font-weight: bold;
+    background: #e8f5e9;
+    padding: 0 4px;
+    border-radius: 4px;
+}
+
+.cursor {
+    display: inline-block;
+    width: 8px;
+    height: 1.2em;
+    background-color: black;
+    vertical-align: middle;
+    margin-left: 2px;
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    50% { background-color: transparent; }
+}
+
+.highlight-link {
+    font-weight: bold;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.highlight-link:hover {
+    text-decoration: underline;
+}
+
+/* Header info styles */
+.header-info {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    border: 1px solid #e9ecef;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #0a0c10;
+}
+
+.badge {
+    display: inline-block;
+    background: #eef2fa;
+    padding: 0.3rem 1rem;
+    border-radius: 40px;
+    font-size: 0.85rem;
+    font-weight: 450;
+    color: #1f4e6e;
+    font-family: monospace;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    margin-top: 2rem;
+    text-align: center;
+    color: #7b8a9b;
+    font-size: 0.85rem;
+}
+
+.footer a {
+    color: #3a6b92;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+    .terminal {
+        font-size: 12px;
+        padding: 15px 15px 25px;
+    }
+    .cursor {
+        width: 6px;
+    }
+    .line {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}
