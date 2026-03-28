@@ -4,16 +4,16 @@
 
 ## 🚀 Демо
 
-Посмотреть сайт: [https://mdn78.github.io/](https://mdn78.github.io/
+Посмотреть сайт: [https://mdn78.github.io/](https://mdn78.github.io/)
 ## 📁 Структура проекта  
 
 your-repo/  
-├── .github/  
-│   └── workflows/  
-│       └── deploy.yml  
-├── css/  
-│   └── style.css  
-├── js/  
-│   └── terminal.js  
-├── index.html  
-└── README.md  
+ ├── .github/  
+ │   └── workflows/  
+ │       └── deploy.yml  
+ ├── css/  
+ │   └── style.css  
+ ├── js/  
+ │   └── terminal.js  
+ ├── index.html  
+ └── README.md  
