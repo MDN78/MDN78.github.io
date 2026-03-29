@@ -7,13 +7,15 @@
 Посмотреть сайт: [https://mdn78.github.io/](https://mdn78.github.io/)
 ## 📁 Структура проекта  
 
-your-repo/  
- ├── .github/  
- │   └── workflows/  
- │       └── deploy.yml  
- ├── css/  
- │   └── style.css  
- ├── js/  
- │   └── terminal.js  
- ├── index.html  
- └── README.md  
+```
+MDN78.github.io/
+├── 📁 .github/
+│   └── 📁 workflows/
+│       └── 📄 deploy.yml
+├── 📁 css/
+│   └── 📄 style.css
+├── 📁 js/
+│   └── 📄 terminal.js
+├── 📄 index.html
+└── 📄 README.md
+```
