@@ -4,7 +4,7 @@ class TerminalSimulator {
             {
                 cmd: 'cat README.md',
                 output: [
-                    'Последователь паттернов <a href="https://habr.com/ru/articles/708932/" class="highlight-link" target="_blank">PageComponent & PageFactory</a>,',
+                    'Последователь паттернов <a href="https://nikitafilonov.dev/articles/ui-avtotesty-na-python-s-zapuskom-na-cicd-i-allure-otchetom/" class="highlight-link" target="_blank">PageComponent & PageFactory</a>,',
                     'сосредоточен на изучении техник и инструментов с целью повышения качества продуктов с учетом их специфики — постоянно анализирую и совершенствую процессы, изучая наиболее актуальные и подходящие практики тестирования.',
                     'Каждый день познаю что то новое.'
 
